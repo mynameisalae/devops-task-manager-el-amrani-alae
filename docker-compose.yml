@@ -1,7 +1,7 @@
 services:
   # API service (Task Manager)
   api:
-    image: ghcr.io/mynameisalae/task-manager-api:prod # Image built & delivered in Lab 4
+    image: ghcr.io/mynameisalae/task-manager-api:prod # Image built & delivered in the Lab 4
     ports:
       - "3000:3000" # Expose API on localhost:3000
     depends_on:
